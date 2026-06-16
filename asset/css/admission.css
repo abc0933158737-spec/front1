@@ -1,0 +1,107 @@
+.admission-container {
+    max-width: 1000px;
+    margin: 40px auto 60px auto;
+    padding: 0 20px;
+}
+
+.page-title {
+    font-size: 32px;
+    color: #111827;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* ==========================================================================
+   分頁標籤 Tabs
+   ========================================================================== */
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #e5e7eb;
+    margin-bottom: 30px;
+}
+
+.tab-btn {
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.2s;
+}
+
+.tab-btn:hover {
+    color: #2563eb;
+}
+
+.tab-btn.active {
+    color: #2563eb;
+    border-bottom: 2px solid #2563eb;
+    font-weight: bold;
+}
+
+/* ==========================================================================
+   內文與表格
+   ========================================================================== */
+.tab-content h2 {
+    color: #1f2937;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.tab-content p {
+    color: #4b5563;
+    line-height: 1.7;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.info-table th, .info-table td {
+    padding: 14px 18px;
+    text-align: left;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.info-table th {
+    background-color: #f8fafc;
+    color: #334155;
+    font-weight: 600;
+}
+
+.info-table td a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.info-table td a:hover {
+    text-decoration: underline;
+}
+
+/* 下載按鈕 */
+.download-box {
+    margin-top: 30px;
+}
+
+.download-btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.download-btn:hover {
+    background: #1d4ed8;
+}
